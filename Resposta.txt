@@ -1,0 +1,38 @@
+-- OBJETIVAS --
+
+1- C
+2- B
+3- D
+4- A
+5- D
+6- A
+7- C
+8- D
+9- B
+10- D
+11- A
+12- A
+
+-- DISCURSIVAS --
+
+13- Métodos são comportamentos da classe. A classe é uma abstração de um problema real em código, então a partir daí podemos dizer que uma Classe Pessoa terá
+todos os comportamentos e atributos, que uma pessoa pode ter, como por exemplo nome, sobrenome, idade, altura, peso. Imaginando isso um sistema de academia,
+onde teriamos que ter duas classes a mais como aluno e professor, os dois herdariam tantos os atributos como os métodos da classe Pessoa, como por exemplo:
+public decimal IMC()
+{
+    return calculo_do_imc;
+}
+No código acima temos uma implementação de um método que cálcula o IMC, ou seja a classe Pessoa está implementando um cálculo IMC, onde seus filhos herdarão esse
+método, e toda alteração que eu fizer dentro da classe Pai, subsequentemente irá para as classes filhas. Então o Método mostra um comportamento e ajuda a dá 
+manutenção e evita reutilização do código.
+ 
+14- Os papéis do Scrum são essências para que o framework ágil seja aplicado, pois defini bem os papéis e garante que as responsábilidades sejam aplicados.
+Suponhamos um exemplo do Scrum sendo aplicado a uma empresa de tecnologia:
+
+PO -> É responsável por máximizar o produto, entender como funciona o negócio, levantar todos os requisitos necessários e criar,priorizar e gerenciar o backlog.
+Scrum Master -> É responsável por garantir que o rito do Scrum ta sendo seguido, por remover impedimentos, e ser um defensor da equipe de desenvolvimento.
+Dev Team -> É responsável pela implementação do projeto, garantido que todos os itens do backlog serão bem implementados.
+
+A partir dos papéis definidos, cada parte irá focar apenas naquilo que está designinado, garantido uma máxima eficiência na construção/entrega do produto. Se os
+papéis forem bagunçados/misturados, não teremos um foco e sim um caos na construção do projeto, onde prazos podem não ser cumpridos, a liderança/gerenciamento será
+quase nenhuma. Então os papéis dentro do scrum garante agilidade, consistência e qualidade do produto.
